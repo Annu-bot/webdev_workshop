@@ -1,0 +1,21 @@
+h1{
+   text-align: center;
+}
+h2{
+    text-align: center;
+    border:solid;
+
+}
+.b{
+    border-left: 2px solid black;
+    height: 660px;
+    position:relative;
+    left: 200%;
+}
+.a{
+    text-align: left;
+    display:-moz-inline-grid; /* Use Flexbox to arrange items */
+    justify-content:right; /* Space between the boxes */
+    max-width: 850px; /* Max width of the container */
+    margin: auto; /* Center the container */
+}
